@@ -56,7 +56,7 @@ module.exports = {
   SUDO: process.env.SUDO || '',
   TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   STARTING_MSG: toBool(process.env.STARTING_MSG) || true,
-  STATUS_REACTION_EMOJI: process.env.STATUS_REACTION_EMOJI || "🍉,🍓",
+  STATUS_REACTION_EMOJI: process.env.STATUS_REACTION_EMOJI || true "🤍,🤍",
   STATUS_REACTION: toBool(process.env.STATUS_REACTION) || false,
   GEMINI: process.env.GEMINI || "null",
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
